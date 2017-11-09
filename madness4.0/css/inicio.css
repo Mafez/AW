@@ -1,0 +1,24 @@
+.thumbnail{
+    width:100px;
+    height:100px;
+    
+}
+.imagen-rombo {
+    width: 0;
+    height: 0;
+    border: 50px;
+    position: relative;
+    top: -50px;
+}
+
+.imagen-rombo:after {
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border: 50px;
+
+}
+
+

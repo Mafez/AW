@@ -1,0 +1,83 @@
+p{
+	font-weight: bold;
+}
+button#enviar.btn.btn-md.btn-success{
+    margin: 10px;
+}
+.btn{
+	color: white; 
+	background-color:#5cb85c;
+	border: 1px solid; 
+	font: bold 100% cursive;
+}
+#cont{
+    height: auto;
+    margin: 10px;
+    width: 95%;
+}
+input.text1{
+	border-radius: 5px;
+	border: 1px solid;
+	padding: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.todo{
+	background-color: white;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid;
+	width: 800px;
+	height: auto;
+	border-radius: 10px;
+	text-align: left;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+   	width: 100%;
+
+    box-shadow: -16px 5px 49px -1px rgba(130,130,130,0.67);
+}
+
+
+.ini{
+	border-radius: 10px 10px 0px 0px;
+	background-color: #5cb85c;
+	border-bottom: 1px solid;
+	border-color: #5cb85c;
+	padding:  5px;
+	margin-bottom:  3px;
+   
+	font: bold 100% cursive;
+	color: white;
+     font-size: 20px;
+	} 
+
+.cuadro{
+    padding-top: 3px;
+	width: auto;
+	height: auto;
+    margin-left: 20px;
+    padding-right: 1em;
+}
+.form-control{
+	margin-right:1em;
+}
+@media(min-width: 768px){
+	 .todo{
+        position: relative;
+    	top: 95px;
+    }
+}
+@media(min-width: 996px){
+	 .todo{
+        position: relative;
+    	top: 61px;
+    }
+}
